@@ -1,0 +1,23 @@
+.Footer {
+    background-color: var(--gray-color);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.Footer li {
+    list-style-type: none;
+}
+.Footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: .75rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}

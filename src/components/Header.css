@@ -1,0 +1,12 @@
+.Header {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .Header {
+        flex-direction: column;
+    }
+    .Header img {
+        width: 30%;
+    }
+}
