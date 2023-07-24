@@ -6,8 +6,10 @@ import "./Header.css";
 function Header() {
   return (
     <header className="Header">
-      <img src={logo} alt="Little Lemon Logo" />
-      <Nav />
+      <div className="content Header-content">
+        <img src={logo} alt="Little Lemon Logo" />
+        <Nav />
+      </div>
     </header>
   );
 }

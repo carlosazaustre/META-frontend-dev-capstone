@@ -1,0 +1,20 @@
+.CallToAction {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.CallToAction-button {
+   background-color: var(--secondary-color); 
+   outline: none;
+   border: none;
+   border-radius: 4px;
+   padding: 1rem 2rem;
+   margin-bottom: 2rem;
+   color: var(--black-color);
+   font-weight: 600;
+}
+
+.CallToAction h4,
+.CallToAction p {
+    color: var(--gray-color);
+}

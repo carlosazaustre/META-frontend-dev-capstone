@@ -6,6 +6,13 @@
   --gray-color: #edefee;
   --black-color: #333;
   --rounded: 16px;
+  --maxWidth: 665px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -30,9 +37,23 @@ h2 {
 }
 p {
   color : var(--black-color);
-  font-size: 18pt;
+  font-size: 10pt;
+  margin: 2rem 0 3rem 0;
 }
 span {
   color: var(--primary-color);
   font-size: 0.75rem;
+}
+
+figure {
+  margin: 1rem;
+}
+
+.content {
+  max-width: var(--maxWidth);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0 1rem;
 }

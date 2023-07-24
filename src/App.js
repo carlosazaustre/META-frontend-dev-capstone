@@ -1,17 +1,23 @@
-import { Fragment } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Main from "./components/Main";
 import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import BookingsPage from "./pages/BookingsPage";
 
 import "./App.css";
 
 function App() {
   return (
-    <Fragment className="App">
+    <div className="app">
+      <BrowserRouter>
       <Header />
-      <Main />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/bookings" element={<BookingsPage />} />
+        </Routes>
       <Footer />
-    </Fragment>
+      </BrowserRouter>
+    </div>
   );
 }
 

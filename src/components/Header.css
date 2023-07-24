@@ -1,12 +1,7 @@
 .Header {
-    display: flex;
+    padding: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-    .Header {
-        flex-direction: column;
-    }
-    .Header img {
-        width: 30%;
-    }
+.Header-content {
+    align-items: center;
 }

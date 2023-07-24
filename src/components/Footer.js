@@ -4,6 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="Footer">
+      <div className="Footer-content--grid">
       <section>
         <img src={logo} alt="Little Lemon Logo" />
       </section>
@@ -54,6 +55,7 @@ function Footer() {
           <a href="/email">Email</a>
         </li>
       </section>
+      </div>
     </footer>
   );
 }
